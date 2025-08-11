@@ -1,268 +1,179 @@
-﻿<!-- <%@ Page language="C#" %>
-    <%@ Register Tagprefix="SharePoint"
-     Namespace="Microsoft.SharePoint.WebControls"
-     Assembly="Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
-        <%@ Import Namespace="Microsoft.SharePoint" %> -->
-
-<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
-<SharePoint:SPShortcutIcon runat="server" IconUrl="/_layouts/15/images/favicon.ico?rev=23" />
-
+<!doctype html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=11">
-    <meta name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no'>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#2E2E38" />
-    <SharePoint:ScriptLink Name="MicrosoftAjax.js" runat="server" Defer="False" Localizable="false" />
-    <SharePoint:ScriptLink Name="SP.core.js" runat="server" Defer="False" Localizable="false" />
-    <SharePoint:ScriptLink Name="SP.js" runat="server" Defer="False" Localizable="false" />
-    <SharePoint:ScriptLink Name="SP.runtime.js" runat="server" Defer="False" Localizable="false" />
-    <link id="CssLink-547080e0027b4272bfab8b9978c3b725" rel="stylesheet" type="text/css" href="/_layouts/15/1033/styles/Themable/corev15.css?rev=NeGf01GgXqggMJUsYZ64OA%3D%3DTAG797" />
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#2E2E38" />
+  <title>Consulting Championship 2025</title>
 
-    <title>Consulting Championship 2025</title>
+  <!-- Local favicon (optional) -->
+  <link rel="icon" href="./Images/favicon.ico">
 
-
-    <link rel="stylesheet" href="./Styles/Vendors/bootstrap.min.css">
-    <link rel="stylesheet" href="./Styles/style.css">
-    <style type="text/css">
-
-    </style>
-
+  <!-- CSS -->
+  <link rel="stylesheet" href="./Styles/Vendors/bootstrap.min.css">
+  <link rel="stylesheet" href="./Styles/style.css">
 </head>
-
 <body>
 
-    <script>
-    </script>
-    <form runat="server">
-        <SharePoint:FormDigest ID="FormDigest1" runat="server"></SharePoint:FormDigest>
-        <script type="text/javascript" src="/_layouts/15/init.js"></script>
-        <script type="text/javascript" src="/_layouts/15/1033/initstrings.js"></script>
-        <script type="text/javascript" src="/_layouts/15/1033/strings.js"></script>
-        <script type="text/javascript" src="/_layouts/15/core.js"></script>
-        <script type="text/javascript" src="_layouts/15/clienttemplates.js"></script>
-        <script type="text/javascript" src="_layouts/15/clientforms.js"></script>
-        <script type="text/javascript" src="_layouts/15/clientpeoplepicker.js"></script>
-        <script type="text/javascript" src="_layouts/15/autofill.js"></script>
-        <script type="text/javascript" src="/_layouts/15/1033/sts_strings.js"></script>
-
-        <div class="container_wrapper">
-            <div class="webPart">
-                <div class="webScreen">
-                    <!-- <img src="./Images/dsn1.jpg" style="position: absolute; width: 100%; height: auto;left: 0; top: 0; z-index: -1; opacity: .1;"> -->
-                    <img src="./Images/topBorder.jpg" class="borderTop">
-                    <div class="container-fluid banner">
-                        <img src="./Images/ey-consulting-championship-2025-logo.webp" class="logo">
-                        <p class="siteHd">Consulting Championship 2025</p>
-                        <p class="siteDesc">A national program empowering Saudi university students to solve real business cases judged by global consulting firms</p>
-                        <img src="./Images/banner-right-img.png" class="bannerRight">
-                        <div class="partnersLogos">
-                            <p class="p1">Powered by Aramco</p>
-                            <img src="./Images/aramco-logo--white.webp" class="Aramco-logo">
-                            <p class="p2">in collaboration with</p>
-                            <img src="./Images/EY-logo.png" class="EY-logo">
-                            <img src="./Images/DEL_SEC_RGB.png" class="Deloitte-logo">
-                            <img src="./Images/RB_Logo_Combination_White_Print.png" class="RoBe-logo"> </div>
-                    </div>
-                    <div class="sectionThree container-fluid">
-                        <div class="row sec-3">
-                            <div class="col-sm-6 sec3-6">
-                                <img src="./Images/icon_one.png" class="sec3Ico iconOne">
-                                <p class="sec3Hd sec3Hd-1">A flagship initiative.</p>
-                                <p class="sec3Cnt sec3Cnt-1">It unlocks the potential of Saudi Arabia's next generation of consultants</p>
-                            </div>
-                            <div class="col-sm-6 sec3-6"> <img src="./Images/icon_two.png" class="sec3Ico iconTwo">
-                                <p class="sec3Hd sec3Hd-1">Explore the dynamic world of consulting</p>
-                                <p class="sec3Cnt sec3Cnt-1">Gain real-world exposure to strategic problem-solving.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="sectionFour">
-                        <img src="./Images/sec-4.png" class="sec4-img-1">
-                        <img src="./Images/img-sec-4.jpg" class="sec4-img-2">
-                        <p class="sec-4-hd">Empowering Future Leaders: The Consulting Champion 2025</p>
-                        <p class="sec-4-cnt">The Consulting Championship has evolved into a flagship initiative to unlock the potential of Saudi Arabia's next generation of consultants. Through this competition, participants can explore the dynamic world of consulting, sharpen
-                            their analytical and leadership skills, and gain real-world exposure to strategic problem-solving.
-                            <br/><br/>If you are passionate about business strategy, digital transformation and consulting, the Consulting Champion 2025 is your stage to build skills, gain exposure and connect with industry professionals.</p>
-                        </p>
-                    </div>
-                    <div class="siteIntro">
-
-                        <a href="https://cognistreamer.eu.auth0.com/login?state=hKFo2SBCUnNPVkQtckI1bUlVMlFxNUZ6bS1PZDVMUWhNTWpzZKFupWxvZ2luo3RpZNkgLThDZkVtcTdpWUFVSEQ3VmtWZ09fdzBsY1ZEQW85SW2jY2lk2SBWQlhrZTNzclNOV0h2TzI0TW5HcGh6cHJjMkJDZ1pBYQ&client=VBXke3srSNWHvO24MnGphzprc2BCgZAa&protocol=oauth2&redirect_uri=https%3A%2F%2Fconsultingchampionship2025.cognistreamer.com%2Fauth%2Fcallback&response_type=code%20id_token&scope=openid%20email%20profile%20offline_access&response_mode=form_post&nonce=638905208703840655.ODAyNjExODEtNmEwYy00ZDEyLWI3MWQtN2E0NWE3ZTU3NWMyNzQ2ZTUxMzgtMmNjOC00NDRjLThiN2EtMGMwYTRkNjY1ZWUx&device=consultingchampionship2025.cognistreamer.com&x-client-SKU=ID_NET8_0&x-client-ver=8.0.2.0"
-                            target="_blank" class="registerBtn">Register here</a>
-                    </div>
-
-                    <img src="./Images/Benefits of participation_V1.jpg" class="infographics-1">
-
-
-                    <div class="sectionFive container-fluid">
-                        <div class="row">
-                            <div class="leftSecHd col-sm-12">
-                                <div class="lftCard active">
-                                    <span class="cardNo">01</span>
-                                    <p class="tabHd">Register in four steps</p>
-                                    <img src="./Images/arrow-right.png" class="arrowRgt">
-                                </div>
-                                <div class="rgtCard">
-                                    <span class="cardNo">02</span>
-                                    <p class="tabHd">Who can participate</p>
-                                    <img src="./Images/arrow-right.png" class="arrowRgt">
-                                </div>
-                                <hr class="hr" />
-                            </div>
-                        </div>
-
-                        <div class="row row-secFive cardContentOne active">
-                            <div class="col-sm-7 sec-five-7 brdrRgt">
-                                <div class="tabDetails">
-                                    <p class="dteTab">Deadline : <b>Sep 10, 2025</b></p>
-                                    <p class="tab-hd c-jd1">Open the portal</p>
-                                    <p class="tab-des">Click “Register Now” to open the registration site.</p>
-                                    <p class="tab-hd c-jd2">Create your account</p>
-                                    <p class="tab-des">Only the team leader creates an account and verifies their email.</p>
-                                    <p class="tab-hd c-jd3">Complete one team form</p>
-                                    <p class="tab-des">Provide member details:</p>
-                                    <p class="tab-des">full name, personal & university emails (.edu.sa), University ID, GPA & major, graduation year, and mobile phone (+966).</p>
-                                    <p class="tab-hd c-jd4">Get confirmation</p>
-                                    <p class="tab-des"> Receive a confirmation email once the team form is submitted. </p>
-
-                                </div>
-                            </div>
-                            <div class="col-sm-5 sec-five-5"><img class="imgRgt" src="./Images/ey-consulting-challenge-about.webp"></div>
-
-                        </div>
-
-                        <div class="row row-secFive cardContentTwo">
-                            <div class="col-sm-5 sec-five-5"><img class="imgLft" src="./Images/ey-consulting-challenge-participate.webp"></div>
-                            <div class="col-sm-7 sec-five-7 brdrLft">
-                                <ul class="tabDetails">
-                                    <li class="l1 l-01">The championship is open to undergraduate students from one of the following universities.
-                                        <ul class="ul1">
-
-
-                                            <li> Imam Abdulrahman Bin Faisal University (IAU)</li>
-                                            <li>Imam Mohammad Ibn Saud Islamic University (IMSIU)</li>
-                                            <li>King Abdulaziz University (KAU)</li>
-                                            <li>King Fahd University of Petroleum & Minerals (KFUPM)</li>
-                                            <li>King Faisal University (KFU)</li>
-
-                                            <li>King Khalid University (KKU)</li>
-                                            <li>King Saud University (KSU)</li>
-                                            <li>Prince Mohammad Bin Fahd University (PMU)</li>
-                                            <li>Princess Nourah bint Abdulrahman University (PNU)</li>
-                                            <li>Umm Al-Qura University (UQU)</li>
-                                    </li>
-
-                                    </ul>
-                                    </li>
-                                    <li class="l2">All students must register in teams of three or four participants(one team leader).</li>
-                                    <li class="l3">Only the team leader submit the appliction.</li>
-                                    <li class="l4">All majors can apply.</li>
-
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <p class="timelineHd">Championship Timeline</p>
-                    <img src="./Images/CC_2025_EY.com_V3.jpg" class="infographics-2">
-                    <div class="container-fluid sectionSix">
-                        <div class="row rowSec-6">
-                            <div class="col-sm-12 colSec-6">
-                                <p class="contactHd">Connect with us</p>
-                                <p class="contactDesc">If you have any questions feel free to reach out us at<a href="mailto:info@consultingchampionship2025.com"> info@consultingchampionship2025.com</a> </p>
-                                <div class="contact-box">
-                                    <div class="contactBox">
-                                        <div class="contactImg" style="background-image: url(./Images/c4.jpg);"></div>
-                                        <p class="cntName">Lorem ipsum dolor</p>
-                                        <p class="cntDesc">Sit amet, consectetur adipiscing elit</p>
-                                        <div class="mediaSection">
-                                            <a href=""><img src="./Images/mail-icon.png"></a>
-                                            <a href=""><img src="./Images/call-icon.png"></a>
-                                            <a href=""><img src="./Images/linkedin.png"></a>
-                                        </div>
-                                    </div>
-                                    <div class="contactBox">
-                                        <div class="contactImg" style="background-image: url(./Images/c3.jpg);"></div>
-                                        <p class="cntName c-l">Lorem ipsum dolor</p>
-                                        <p class="cntDesc">Sit amet, consectetur adipiscing elit</p>
-                                        <div class="mediaSection">
-                                            <a href=""><img src="./Images/mail-icon.png"></a>
-                                            <a href=""><img src="./Images/call-icon.png"></a>
-                                            <a href=""><img src="./Images/linkedin.png"></a>
-                                        </div>
-                                    </div>
-                                    <div class="contactBox">
-                                        <div class="contactImg" style="background-image: url(./Images/c2.jpg);"></div>
-                                        <p class="cntName">Lorem ipsum dolor</p>
-                                        <p class="cntDesc">Sit amet, consectetur adipiscing elit</p>
-                                        <div class="mediaSection">
-                                            <a href=""><img src="./Images/mail-icon.png"></a>
-                                            <a href=""><img src="./Images/call-icon.png"></a>
-                                            <a href=""><img src="./Images/linkedin.png"></a>
-                                        </div>
-                                    </div>
-                                    <div class="contactBox">
-                                        <div class="contactImg" style="background-image: url(./Images/c1.jpg);"></div>
-                                        <p class="cntName c-l">Lorem ipsum dolor</p>
-                                        <p class="cntDesc">Sit amet, consectetur adipiscing elit</p>
-                                        <div class="mediaSection">
-                                            <a href=""><img src="./Images/mail-icon.png"></a>
-                                            <a href=""><img src="./Images/call-icon.png"></a>
-                                            <a href=""><img src="./Images/linkedin.png"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="container-fluid footer">
-                        <img src="./Images/ey-consulting-championship-2025-logo.webp" class="footer-logo">
-                        <div class="mediaIcons">
-                            <a href=""><img src="./Images/linkedin-white.png"></a>
-                            <a href=""><img src="./Images/twitter.png"></a>
-                            <a href=""><img src="./Images/instagram.png"></a>
-                            <a href=""><img src="./Images/youtube.png"></a>
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-
-
-            </div>
+  <div class="container_wrapper">
+    <div class="webPart">
+      <div class="webScreen">
+        <img src="./Images/topBorder.jpg" class="borderTop" alt="">
+        <div class="container-fluid banner">
+          <img src="./Images/ey-consulting-championship-2025-logo.webp" class="logo" alt="Logo">
+          <p class="siteHd">Consulting Championship 2025</p>
+          <p class="siteDesc">A national program empowering Saudi university students to solve real business cases judged by global consulting firms</p>
+          <img src="./Images/banner-right-img.png" class="bannerRight" alt="">
+          <div class="partnersLogos">
+            <p class="p1">Powered by Aramco</p>
+            <img src="./Images/aramco-logo--white.webp" class="Aramco-logo" alt="Aramco">
+            <p class="p2">in collaboration with</p>
+            <img src="./Images/EY-logo.png" class="EY-logo" alt="EY">
+            <img src="./Images/DEL_SEC_RGB.png" class="Deloitte-logo" alt="Deloitte">
+            <img src="./Images/RB_Logo_Combination_White_Print.png" class="RoBe-logo" alt="Roland Berger">
+          </div>
         </div>
 
-        <!-------------------------->
+        <div class="sectionThree container-fluid">
+          <div class="row sec-3">
+            <div class="col-sm-6 sec3-6">
+              <img src="./Images/icon_one.png" class="sec3Ico iconOne" alt="">
+              <p class="sec3Hd sec3Hd-1">A flagship initiative.</p>
+              <p class="sec3Cnt sec3Cnt-1">It unlocks the potential of Saudi Arabia's next generation of consultants</p>
+            </div>
+            <div class="col-sm-6 sec3-6">
+              <img src="./Images/icon_two.png" class="sec3Ico iconTwo" alt="">
+              <p class="sec3Hd sec3Hd-1">Explore the dynamic world of consulting</p>
+              <p class="sec3Cnt sec3Cnt-1">Gain real-world exposure to strategic problem-solving.</p>
+            </div>
+          </div>
+        </div>
 
-        <!-------------------------->
-        <script type="text/javascript" src="./Scripts/Vendors/jquery-3.6.0.min.js"></script>
-        <script type="text/javascript" src="./Scripts/Vendors/bootstrap.bundle.min.js"></script>
+        <div class="sectionFour">
+          <img src="./Images/sec-4.png" class="sec4-img-1" alt="">
+          <img src="./Images/img-sec-4.jpg" class="sec4-img-2" alt="">
+          <p class="sec-4-hd">Empowering Future Leaders: The Consulting Champion 2025</p>
+          <p class="sec-4-cnt">
+            The Consulting Championship has evolved into a flagship initiative to unlock the potential of Saudi Arabia's next generation of consultants...
+          </p>
+        </div>
 
+        <div class="siteIntro">
+          <a
+            href="https://cognistreamer.eu.auth0.com/login?state=hKFo2SBCUnNPVkQtckI1bUlVMlFxNUZ6bS1PZDVMUWhNTWpzZKFupWxvZ2luo3RpZNkgLThDZkVtcTdpWUFVSEQ3VmtWZ09fdzBsY1ZEQW85SW2jY2lk2SBWQlhrZTNzclNOV0h2TzI0TW5HcGh6cHJjMkJDZ1pBYQ&client=VBXke3srSNWHvO24MnGphzprc2BCgZAa&protocol=oauth2&redirect_uri=https%3A%2F%2Fconsultingchampionship2025.cognistreamer.com%2Fauth%2Fcallback&response_type=code%20id_token&scope=openid%20email%20profile%20offline_access&response_mode=form_post&nonce=638905208703840655.ODAyNjExODEtNmEwYy00ZDEyLWI3MWQtN2E0NWE3ZTU3NWMyNzQ2ZTUxMzgtMmNjOC00NDRjLThiN2EtMGMwYTRkNjY1ZWUx&device=consultingchampionship2025.cognistreamer.com&x-client-SKU=ID_NET8_0&x-client-ver=8.0.2.0"
+            target="_blank"
+            class="registerBtn">Register here</a>
+        </div>
 
+        <img src="./Images/Benefits of participation_V1.jpg" class="infographics-1" alt="Benefits">
 
+        <div class="sectionFive container-fluid">
+          <div class="row">
+            <div class="leftSecHd col-sm-12">
+              <div class="lftCard active">
+                <span class="cardNo">01</span>
+                <p class="tabHd">Register in four steps</p>
+                <img src="./Images/arrow-right.png" class="arrowRgt" alt="">
+              </div>
+              <div class="rgtCard">
+                <span class="cardNo">02</span>
+                <p class="tabHd">Who can participate</p>
+                <img src="./Images/arrow-right.png" class="arrowRgt" alt="">
+              </div>
+              <hr class="hr" />
+            </div>
+          </div>
 
-        <script type="text/javascript">
-            $(".lftCard").click(function() {
-                $(".rgtCard").removeClass("active");
-                $(this).addClass("active");
+          <div class="row row-secFive cardContentOne active">
+            <div class="col-sm-7 sec-five-7 brdrRgt">
+              <div class="tabDetails">
+                <p class="dteTab">Deadline : <b>Sep 10, 2025</b></p>
+                <p class="tab-hd c-jd1">Open the portal</p>
+                <p class="tab-des">Click “Register Now” to open the registration site.</p>
+                <p class="tab-hd c-jd2">Create your account</p>
+                <p class="tab-des">Only the team leader creates an account and verifies their email.</p>
+                <p class="tab-hd c-jd3">Complete one team form</p>
+                <p class="tab-des">Provide member details: full name, personal & university emails (.edu.sa), University ID, GPA & major, graduation year, and mobile phone (+966).</p>
+                <p class="tab-hd c-jd4">Get confirmation</p>
+                <p class="tab-des">Receive a confirmation email once the team form is submitted.</p>
+              </div>
+            </div>
+            <div class="col-sm-5 sec-five-5"><img class="imgRgt" src="./Images/ey-consulting-challenge-about.webp" alt=""></div>
+          </div>
 
-                $(".cardContentTwo").removeClass("active");
-                $(".cardContentOne").addClass("active");
+          <div class="row row-secFive cardContentTwo">
+            <div class="col-sm-5 sec-five-5"><img class="imgLft" src="./Images/ey-consulting-challenge-participate.webp" alt=""></div>
+            <div class="col-sm-7 sec-five-7 brdrLft">
+              <ul class="tabDetails">
+                <li class="l1 l-01">The championship is open to undergraduate students from one of the following universities.
+                  <ul class="ul1">
+                    <li>Imam Abdulrahman Bin Faisal University (IAU)</li>
+                    <li>Imam Mohammad Ibn Saud Islamic University (IMSIU)</li>
+                    <li>King Abdulaziz University (KAU)</li>
+                    <li>King Fahd University of Petroleum & Minerals (KFUPM)</li>
+                    <li>King Faisal University (KFU)</li>
+                    <li>King Khalid University (KKU)</li>
+                    <li>King Saud University (KSU)</li>
+                    <li>Prince Mohammad Bin Fahd University (PMU)</li>
+                    <li>Princess Nourah bint Abdulrahman University (PNU)</li>
+                    <li>Umm Al-Qura University (UQU)</li>
+                  </ul>
+                </li>
+                <li class="l2">All students must register in teams of three or four participants (one team leader).</li>
+                <li class="l3">Only the team leader submits the application.</li>
+                <li class="l4">All majors can apply.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-            });
-            $(".rgtCard").click(function() {
-                $(".lftCard").removeClass("active");
-                $(this).addClass("active");
+        <p class="timelineHd">Championship Timeline</p>
+        <img src="./Images/CC_2025_EY.com_V3.jpg" class="infographics-2" alt="Timeline">
 
-                $(".cardContentOne").removeClass("active");
-                $(".cardContentTwo").addClass("active");
+        <div class="container-fluid sectionSix">
+          <div class="row rowSec-6">
+            <div class="col-sm-12 colSec-6">
+              <p class="contactHd">Connect with us</p>
+              <p class="contactDesc">If you have any questions feel free to reach out at
+                <a href="mailto:info@consultingchampionship2025.com">info@consultingchampionship2025.com</a></p>
+              <div class="contact-box">
+                <!-- contact cards ... -->
+              </div>
+            </div>
+          </div>
+        </div>
 
-            });
-        </script>
-    </form>
+        <div class="container-fluid footer">
+          <img src="./Images/ey-consulting-championship-2025-logo.webp" class="footer-logo" alt="">
+          <div class="mediaIcons">
+            <a href="#"><img src="./Images/linkedin-white.png" alt=""></a>
+            <a href="#"><img src="./Images/twitter.png" alt=""></a>
+            <a href="#"><img src="./Images/instagram.png" alt=""></a>
+            <a href="#"><img src="./Images/youtube.png" alt=""></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- JS -->
+  <script src="./Scripts/Vendors/jquery-3.6.0.min.js"></script>
+  <script src="./Scripts/Vendors/bootstrap.bundle.min.js"></script>
+  <script>
+    $(".lftCard").on("click", function(){
+      $(".rgtCard").removeClass("active");
+      $(this).addClass("active");
+      $(".cardContentTwo").removeClass("active");
+      $(".cardContentOne").addClass("active");
+    });
+    $(".rgtCard").on("click", function(){
+      $(".lftCard").removeClass("active");
+      $(this).addClass("active");
+      $(".cardContentOne").removeClass("active");
+      $(".cardContentTwo").addClass("active");
+    });
+  </script>
 </body>
-
 </html>
